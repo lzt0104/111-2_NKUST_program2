@@ -227,4 +227,4 @@ for i in range(3):
 old_pet = max(pets, key=lambda p: p.age)
 young_pet = min(pets, key=lambda p: p.age)
 print(f"{old_pet.name}，是年紀最大者，{oldest_pet.age}歲")
-print(f"{young_pet.name}，是最年輕者，{youngest_pet.age}歲")
+print(f"{young_pet.name}，是最年輕者，{youngest_pet.age}歲")  
