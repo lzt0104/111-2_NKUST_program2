@@ -5,6 +5,9 @@ class NoteBook:
         self.kb = Kb()
         self.disk = Disk()
 
+    def addMouse(self,mouse):
+        self.mouse = mouse
+
 class CPU:
     pass
 
@@ -16,3 +19,13 @@ class Kb:
 
 class Disk:
     pass
+
+cpu = CPU()
+screen = screen()
+kb = Kb()
+disk = Disk()
+
+nb = NoteBook(cpu,screen,kb,disk)
+mouse = Mouse()
+
+nb.addMouse(mouse)
