@@ -1,10 +1,11 @@
 class NoteBook:
     def __init__(self):
-        self.CPU = CPU()
-        self.monitor = Monitor()
-        self.keyboard = Keyboard()
-        self.SSD = SSD()
-        self.reader = Reader()
+        self.__CPU = CPU()
+        self.__monitor = Monitor()
+        self.__keyboard = Keyboard()
+        self.__SSD = SSD()
+        self.__reader = Reader()
+        
     def addMouse(self,mouse):
         self.mouse = mouse
 
