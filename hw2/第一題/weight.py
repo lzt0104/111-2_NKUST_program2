@@ -1,4 +1,4 @@
-class WeightCalculator:
+class WC:
     def __init__(self, height, gender):
         self.height = height
         self.gender = gender
